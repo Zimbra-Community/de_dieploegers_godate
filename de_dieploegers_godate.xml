@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : de_dieploegers_godate.xml
+    Created on : 20120403
+    Author     : Dennis Ploeger <develop@dieploegers.de>
+    Description: Zimlet, that registers a hotkey to go to specific date
+-->
+
+<zimlet name="de_dieploegers_godate" version="1.0" 
+description="Zimlet, that registers a hotkey to go to specific date">
+  <include>de_dieploegers_godate.js</include>
+  <includeCSS>de_dieploegers_godate.css</includeCSS>
+  <handlerObject>de_dieploegers_godateHandlerObject</handlerObject>
+</zimlet>

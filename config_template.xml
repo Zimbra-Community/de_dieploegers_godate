@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : config_template.xml
+    Created on : 20120403
+    Author     : Dennis Ploeger <develop@dieploegers.de>
+    Description: Zimlet, that registers a hotkey to go to specific date
+-->
+
+<zimletConfig name="de_dieploegers_godate" version="1.0">
+</zimletConfig>
