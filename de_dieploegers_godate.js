@@ -20,7 +20,7 @@ de_dieploegers_godateHandlerObject.prototype.init =
     function () {
 
         appCtxt.getKeyboardMgr()._evtMgr.addListener(
-            DwtEvent.ONKEYPRESS,
+            DwtEvent.ONKEYDOWN,
             new AjxListener(
                 this,
                 this.handleKeyAction
@@ -44,7 +44,7 @@ de_dieploegers_godateHandlerObject.prototype.handleKeyAction =
             (ev.ctrlKey) &&
             (!ev.altKey) &&
             (!ev.metaKey) &&
-            (ev.charCode == 71)) {
+            (ev.keyCode == 71)) {
 
             this.showGotoDateDialog();
             return false;
