@@ -7,7 +7,7 @@
     Description: Zimlet, that registers a hotkey to go to specific date
 -->
 
-<zimlet name="de_dieploegers_godate" version="1.0" 
+<zimlet name="de_dieploegers_godate" version="1.1" 
 description="Zimlet, that registers a hotkey to go to specific date">
   <include>de_dieploegers_godate.js</include>
   <includeCSS>de_dieploegers_godate.css</includeCSS>
